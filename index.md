@@ -3,10 +3,89 @@
 ---
 ## Machine learning
 
-### Fraud Detection
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/fraud_detection)
+### BoomBikes: Leveraging Predictive Analytics to Revitalize Post-Pandemic Bike-Sharing Demand
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/BoomBikeSharing)
 
-Fraud detection is a set of processes and analyses that allow businesses to identify and prevent unauthorized financial activity. This can include fraudulent credit card transactions, identify theft, cyber hacking, insurance scams, and more.
+This project employs multiple linear regression analysis to forecast post-pandemic demand for BoomBikes, a bike-sharing service impacted by COVID-19. Analyzing a dataset reflecting American market trends, we identified key demand influencers, including weather conditions, seasonality, and temporal shifts. This insight helps BoomBikes align their strategies with environmental cues and market dynamics to boost customer engagement and revenue.
 
----
+**Strategic Insights:**
+- **Weather and Seasonality:** High demand correlates with warmer temperatures and clear skies. Seasonal changes significantly affect bike rentals, highlighting the need for targeted bike availability and marketing in warmer months.
+- **Demand Growth:** An upward trend in bike rentals suggests increasing popularity. It emphasizes the potential for strategic expansion and enhanced promotional efforts.
+
+**Model Findings:**
+- Developed two models; the latter, incorporating binned variables for temperature and weather conditions, showed superior accuracy. This model's success underscores the importance of nuanced factors like weather and season in demand prediction.
+
+**Recommendations:**
+-ocus resources on peak demand periods, identified as warmer seasons with clear weather.
+-Leverage the growing trend in bike-sharing to expand market presence and customer base.
+
+**Technologies Used:**
+
+Python and libraries such as pandas, numpy, matplotlib, and seaborn facilitated the data analysis, supported by the Anaconda platform.
+
+### Lending Club Loan Default Prediction
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/LendingClubCaseStudy)
+
+This project applies Exploratory Data Analysis (EDA) to predict loan defaults for the Lending Club, aiding in refining loan approval processes and minimizing credit losses. Through detailed analysis of a dataset containing loan applicant information, we identified key predictors of loan default, enabling more informed lending decisions.
+
+**Key Insights:**
+
+- **Predictive Variables:** Loan term, grade, interest rate, and annual income emerged as significant predictors of default. High-interest rates and loan amounts, particularly in the 'Medium-High' and 'Very High' categories, indicated increased default risk.
+- **Binning Impact:** Categorizing continuous variables (e.g., loan amount, interest rate) improved predictive accuracy. Specifically, loans with terms of 60 months, higher loan amounts, and interest rates above 12% showed a higher likelihood of default.
+- **Geographic Trends:** Loan defaults varied by geography, with states like Florida and California showing higher default rates, suggesting the importance of location in risk assessment.
+
+**Recommendations:**
+
+- **Risk-Based Pricing:** Adjust interest rates for higher-risk loan categories to mitigate potential losses.
+- **Loan Term Promotion:** Encourage shorter loan terms (36 months) due to their lower default rates.
+- **Enhanced Scrutiny:** Apply more rigorous checks for loans with high interest rates (>12%) and monitor high installment loans closely.
+- **Income and Employment Verification:** Strengthen verification processes for these factors, especially for borrowers in lower income brackets.
+- **Geographic Strategy**: Tailor risk management strategies to regions with historically higher default rates.
+
+**Technologies:**
+
+Utilized Python along with libraries like pandas, numpy, matplotlib, and seaborn for data analysis and visualization.
+
+## Deep learning
+
+### Stack Overflow Tag Prediction with GRU and Bidirectional GRU Models using GloVe Embedding
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/stack_overflow_tag_prediction)
+
+This project focuses on the development of machine learning models to predict tags for Stack Overflow questions, facilitating more efficient content categorization and navigation. By leveraging a dataset comprised of Stack Overflow questions, the initiative seeks to employ advanced neural network models, specifically GRU and Bidirectional GRU, enhanced with GloVe embeddings for effective text representation.
+
+The methodology encompasses initial data preprocessing, focusing on the most frequent tags, followed by the exploration of neural network architectures for the task. Utilizing Python and key libraries such as TensorFlow, Keras, NLTK, and Scikit-learn, the project aims at achieving high precision, recall, and F1 scores in multi-class text classification.
+
+Performance analysis reveals that while both GRU and Bidirectional GRU models show promising results, they exhibit trade-offs between precision and recall, and certain challenges in category-specific performance, particularly with 'html' questions. These insights underscore the potential for further model optimization and exploration of additional architectures.
+
+Future directions include experimenting with diverse models and hyperparameters to enhance accuracy and extending the model's capability to predict a broader array of tags. 
+
+### Distracted Driver Multi-Action Classification Using CNN and MobileNet
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/DistractedDriverClassification)
+
+This project is centered on the development of a convolutional neural network (CNN) model to classify images of drivers into ten distinct categories based on their behaviors, such as texting, talking on the phone, driving safely, and more. Utilizing a dataset of driver images, the goal is to accurately identify and classify various driving behaviors to enhance road safety measures.
+
+By organizing the dataset into training, testing, and validation sets, the project employs a methodical approach to data preprocessing and model training. A key part of the methodology involves leveraging transfer learning from MobileNet, combined with a GlobalAveragePooling2D layer and dense layers with dropout regularization to construct a robust CNN model.
+
+Technological tools and libraries such as Python, TensorFlow, Keras, Scikit-learn, and data visualization libraries like Matplotlib and Seaborn are integral to this project, enabling efficient model development and performance evaluation.
+
+The CNN model achieved a commendable accuracy of 86.16% on the validation set, showcasing its potential in accurately classifying distracted driving behaviors. This achievement underscores the model's effectiveness, though it also highlights opportunities for further refinement and enhancement to improve accuracy and robustness.
+
+Future directions for this project include exploring additional data preprocessing and augmentation techniques, experimenting with different CNN architectures and hyperparameters, and extending the model's capabilities to encompass a wider range of driver behaviors and scenarios.
+
+### Quora Spam Question Filtering with GRU and Bidirectional GRU Models using GloVe Embedding
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/QuoraSpamDetection)
+
+This project tackles the challenge of identifying and filtering spam questions on Quora using advanced NLP techniques and deep learning models. With the objective of enhancing content quality and user experience on the platform, the project employs GloVe embeddings for text representation and deep learning models, specifically GRU and Bidirectional GRU, to differentiate between spam and legitimate questions.
+
+Utilizing a dataset of Quora questions, the project undergoes rigorous data preprocessing and exploratory data analysis (EDA) to visualize data distributions and features effectively. The methodology involves using class weights to address the dataset's imbalance— a common challenge in spam detection tasks.
+
+Key technologies and libraries such as Python, TensorFlow, Keras, NLTK, and Scikit-learn play crucial roles in building and training the models. Data visualization tools like Matplotlib and Seaborn are used to analyze model performance and data characteristics, aiding in the iterative process of model refinement.
+
+The outcome of the project is promising, with the GRU model achieving an accuracy of 94.10% and the Bidirectional GRU model achieving 90.60%. Despite the high accuracy, the precision for the positive class (spam) highlights an area for improvement, suggesting further exploration into model architectures and class imbalance strategies.
+
+Future work will focus on investigating additional model architectures, hyperparameter tuning, and advanced techniques for handling class imbalance, aiming to improve the precision for spam detection without compromising overall accuracy.
+
+
+
+
 
