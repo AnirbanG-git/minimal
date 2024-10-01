@@ -112,7 +112,7 @@ ShopAssist is an intelligent chatbot developed to assist users in selecting the 
 
 
 ## Gesture Recognition for Smart TVs
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/yourusername/gesturerecognition_smarttv)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/GestureRecognition)
 
 This project focuses on the development of a gesture recognition feature for smart TVs, enabling users to control the TV without a remote by using five specific gestures. These gestures correspond to commands such as increasing or decreasing volume, jumping forward or backward in a video, and pausing the video.
 
