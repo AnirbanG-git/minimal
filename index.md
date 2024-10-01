@@ -86,6 +86,30 @@ The outcome of the project is promising, with the GRU model achieving an accurac
 Future work will focus on investigating additional model architectures, hyperparameter tuning, and advanced techniques for handling class imbalance, aiming to improve the precision for spam detection without compromising overall accuracy.
 
 
+## AI-Powered Laptop Recommendation Chatbot - ShopAssist
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/shopassist)
+
+ShopAssist is an intelligent chatbot developed to assist users in selecting the best laptops based on their preferences and requirements. The chatbot leverages OpenAI's GPT models with dynamic function calling to deliver personalized recommendations, enhancing user interaction and decision-making.
+
+### Key Features:
+- **Interactive Conversations**: Engages users in a conversation to understand their needs, such as GPU intensity, portability, multitasking, and budget.
+- **Personalized Laptop Recommendations**: Dynamically suggests the top 3 laptops based on the user’s specific requirements, utilizing a custom-built function calling API.
+- **Moderation Layer**: Incorporates a moderation feature to ensure the chatbot stays focused on relevant topics, improving response accuracy.
+- **Asynchronous CSV Generation**: Built-in admin interface to generate and update the laptop catalog CSV in the background, ensuring real-time data management.
+
+### Strategic Insights:
+- **Function Calling API**: Integrated OpenAI’s Function Calling API to trigger dynamic responses and execute tailored functions, providing highly accurate and relevant recommendations.
+
+### Technologies Used:
+- **Python**: Core language for developing the application.
+- **Flask**: Web framework used for managing routes and user sessions.
+- **Pandas**: Utilized for data manipulation and CSV handling.
+- **OpenAI API**: Powers the chatbot with GPT models and Function Calling.
+
+### Future Enhancements:
+- **Model Expansion**: Incorporating additional models to improve recommendation accuracy.
+- **User Profiles**: Implementing persistent user profiles to enable users to return and continue their sessions.
+
 
 
 
