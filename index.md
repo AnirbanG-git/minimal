@@ -130,6 +130,54 @@ This project employs multiple linear regression analysis to forecast post-pandem
 
 Python and libraries such as pandas, numpy, matplotlib, and seaborn facilitated the data analysis, supported by the Anaconda platform.
 
+## Melanoma Detection Using Multiclass Classification
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/SkinCancerDetectionCNN)
+
+### Overview
+This project aims to build a reliable multiclass classification model to detect melanoma, a deadly skin cancer, using TensorFlow. By leveraging images from the International Skin Imaging Collaboration (ISIC), the model assists in reducing the manual effort required for diagnosis by dermatologists.
+
+### Dataset
+The dataset consists of 2357 images, representing various skin diseases. Key classes include:
+- **Actinic Keratosis**
+- **Basal Cell Carcinoma**
+- **Dermatofibroma**
+- **Melanoma**
+- **Nevus**
+- **Pigmented Benign Keratosis**
+- **Seborrheic Keratosis** (fewest samples)
+- **Squamous Cell Carcinoma**
+- **Vascular Lesion**
+
+*Note*: The dataset is highly imbalanced, particularly with fewer samples for Seborrheic Keratosis.
+
+### Models Developed
+1. **Model 1: Vanilla CNN**
+   - Initial model showed signs of overfitting, with a 45% discrepancy between training and validation accuracies.
+
+2. **Model 2: Augmented CNN using Keras**
+   - Introducing a data augmentation layer in Keras reduced overfitting, bringing down the accuracy gap to 5%, but with a slight decrease in overall accuracy.
+
+3. **Model 3: Augmented CNN using Augmentor**
+   - Refinements using the Augmentor library significantly reduced overfitting, achieving ~80% accuracy. While the model performs well, further improvements are possible.
+
+### Technologies Used
+Since the versions of libraries often change, here are the specific versions used in this project:
+- **Python**: 3.10.14
+- **TensorFlow**: 2.16.1
+- **Augmentor**: 0.2.12
+- **NumPy**: 1.26.4
+- **Matplotlib**: 3.8.4
+- **Seaborn**: 0.12.2
+- **PIL**: 10.3.0
+- **Anaconda**: 23.5.2
+
+### How to Use
+Details on how to set up, train, and evaluate the models are provided in the [README](https://github.com/AnirbanG-git/SkinCancerDetectionCNN#readme) section of the GitHub repository. This includes instructions for setting up the environment, data preprocessing, and model training.
+
+### Acknowledgments
+A big thank you to the **International Skin Imaging Collaboration (ISIC)** for providing the dataset used in this project.
+
+
 ## Lending Club Loan Default Prediction
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/LendingClubCaseStudy)
 
