@@ -33,7 +33,7 @@ The CNN model achieved a commendable accuracy of 86.16% on the validation set, s
 
 Future directions for this project include exploring additional data preprocessing and augmentation techniques, experimenting with different CNN architectures and hyperparameters, and extending the model's capabilities to encompass a wider range of driver behaviors and scenarios.
 
-### Quora Spam Question Filtering with GRU and Bidirectional GRU Models using GloVe Embedding
+## Quora Spam Question Filtering with GRU and Bidirectional GRU Models using GloVe Embedding
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/QuoraSpamDetection)
 
 This project tackles the challenge of identifying and filtering spam questions on Quora using advanced NLP techniques and deep learning models. With the objective of enhancing content quality and user experience on the platform, the project employs GloVe embeddings for text representation and deep learning models, specifically GRU and Bidirectional GRU, to differentiate between spam and legitimate questions.
