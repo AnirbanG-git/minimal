@@ -111,5 +111,43 @@ ShopAssist is an intelligent chatbot developed to assist users in selecting the 
 - **User Profiles**: Implementing persistent user profiles to enable users to return and continue their sessions.
 
 
+## Gesture Recognition for Smart TVs
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/yourusername/gesturerecognition_smarttv)
+
+This project focuses on the development of a gesture recognition feature for smart TVs, enabling users to control the TV without a remote by using five specific gestures. These gestures correspond to commands such as increasing or decreasing volume, jumping forward or backward in a video, and pausing the video.
+
+### Dataset Description:
+- **Data Source**: The dataset consists of video frames categorized into five gesture classes. Each gesture is split into 30 frames, and the data is organized into training and validation sets. CSV files provide information on the video subfolders, gesture names, and numeric labels.
+- **Data Preprocessing**: Involves shuffling data, cropping images, resizing to standard dimensions, normalizing pixel values, and optionally augmenting the images with random transformations.
+
+### Model and Methods:
+- **DataLoader Class**: Handles loading and shuffling training and validation data.
+- **DataGenerator Class**: Generates batches of preprocessed image sequences and corresponding labels for training and validation.
+- **ModelManager Class**: Builds, compiles, and trains the gesture recognition model dynamically based on different architectures.
+- **Trainer Class**: Manages the training process, including data preparation, model building, and performance tracking.
+- **CustomLearningRateScheduler Class**: Adjusts the learning rate during training based on a predefined schedule.
+
+### Model Architectures:
+- Each model is defined in a separate architecture file (e.g., `model_15.py`), using the `build_model` function. The CNN+GRU architecture with transfer learning from MobileNet (model_15.py) achieved the best performance.
+- **Best Model**: A combination of 2D CNN for feature extraction from video frames and GRU (Gated Recurrent Unit) for sequence processing. The model achieved:
+  - **Training Accuracy**: 99%
+  - **Validation Accuracy**: 98%
+  
+This model is highly effective for real-time gesture recognition in smart TVs.
+
+### Ablation:
+Ablation studies were conducted using stratified sampling to reduce the dataset size while preserving the label distribution. This experiment provided insights into model performance on smaller subsets of data.
+
+### Technologies Used:
+- **Python Version**: 3.8.10
+- **NumPy Version**: 1.19.4
+- **Skimage Version**: 0.19.2
+- **TensorFlow Version**: 2.7.0
+- **Matplotlib Version**: 3.5.0
+- **Scikit-learn Version**: 0.24.1
+
+### Conclusion:
+The CNN+GRU model with transfer learning is highly accurate in recognizing gestures for controlling smart TVs. Future work could explore further fine-tuning and testing with larger, more diverse datasets to ensure robustness across different user inputs and environments.
+
 
 
