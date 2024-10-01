@@ -1,54 +1,15 @@
 
 # My Portfolio
 ---
-## Machine learning
+# Hi, I’m Anirban Gangopadhyay 👋
 
-### BoomBikes: Leveraging Predictive Analytics to Revitalize Post-Pandemic Bike-Sharing Demand
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/BoomBikeSharing)
+Welcome to my portfolio! I am passionate about leveraging machine learning, deep learning, and AI technologies to solve real-world problems. Over the years, I have worked on several projects spanning various domains, from predictive analytics to advanced gesture recognition systems.
 
-This project employs multiple linear regression analysis to forecast post-pandemic demand for BoomBikes, a bike-sharing service impacted by COVID-19. Analyzing a dataset reflecting American market trends, we identified key demand influencers, including weather conditions, seasonality, and temporal shifts. This insight helps BoomBikes align their strategies with environmental cues and market dynamics to boost customer engagement and revenue.
+Below, you'll find some of the projects I have worked on. Each project demonstrates my proficiency in using state-of-the-art machine learning techniques, along with a wide range of tools and technologies.
 
-**Strategic Insights:**
-- **Weather and Seasonality:** High demand correlates with warmer temperatures and clear skies. Seasonal changes significantly affect bike rentals, highlighting the need for targeted bike availability and marketing in warmer months.
-- **Demand Growth:** An upward trend in bike rentals suggests increasing popularity. It emphasizes the potential for strategic expansion and enhanced promotional efforts.
+Here are the projects I have worked on:
 
-**Model Findings:**
-- Developed two models; the latter, incorporating binned variables for temperature and weather conditions, showed superior accuracy. This model's success underscores the importance of nuanced factors like weather and season in demand prediction.
-
-**Recommendations:**
--ocus resources on peak demand periods, identified as warmer seasons with clear weather.
--Leverage the growing trend in bike-sharing to expand market presence and customer base.
-
-**Technologies Used:**
-
-Python and libraries such as pandas, numpy, matplotlib, and seaborn facilitated the data analysis, supported by the Anaconda platform.
-
-### Lending Club Loan Default Prediction
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/LendingClubCaseStudy)
-
-This project applies Exploratory Data Analysis (EDA) to predict loan defaults for the Lending Club, aiding in refining loan approval processes and minimizing credit losses. Through detailed analysis of a dataset containing loan applicant information, we identified key predictors of loan default, enabling more informed lending decisions.
-
-**Key Insights:**
-
-- **Predictive Variables:** Loan term, grade, interest rate, and annual income emerged as significant predictors of default. High-interest rates and loan amounts, particularly in the 'Medium-High' and 'Very High' categories, indicated increased default risk.
-- **Binning Impact:** Categorizing continuous variables (e.g., loan amount, interest rate) improved predictive accuracy. Specifically, loans with terms of 60 months, higher loan amounts, and interest rates above 12% showed a higher likelihood of default.
-- **Geographic Trends:** Loan defaults varied by geography, with states like Florida and California showing higher default rates, suggesting the importance of location in risk assessment.
-
-**Recommendations:**
-
-- **Risk-Based Pricing:** Adjust interest rates for higher-risk loan categories to mitigate potential losses.
-- **Loan Term Promotion:** Encourage shorter loan terms (36 months) due to their lower default rates.
-- **Enhanced Scrutiny:** Apply more rigorous checks for loans with high interest rates (>12%) and monitor high installment loans closely.
-- **Income and Employment Verification:** Strengthen verification processes for these factors, especially for borrowers in lower income brackets.
-- **Geographic Strategy**: Tailor risk management strategies to regions with historically higher default rates.
-
-**Technologies:**
-
-Utilized Python along with libraries like pandas, numpy, matplotlib, and seaborn for data analysis and visualization.
-
-## Deep learning
-
-### Stack Overflow Tag Prediction with GRU and Bidirectional GRU Models using GloVe Embedding
+## Stack Overflow Tag Prediction with GRU and Bidirectional GRU Models using GloVe Embedding
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/stack_overflow_tag_prediction)
 
 This project focuses on the development of machine learning models to predict tags for Stack Overflow questions, facilitating more efficient content categorization and navigation. By leveraging a dataset comprised of Stack Overflow questions, the initiative seeks to employ advanced neural network models, specifically GRU and Bidirectional GRU, enhanced with GloVe embeddings for effective text representation.
@@ -59,7 +20,7 @@ Performance analysis reveals that while both GRU and Bidirectional GRU models sh
 
 Future directions include experimenting with diverse models and hyperparameters to enhance accuracy and extending the model's capability to predict a broader array of tags. 
 
-### Distracted Driver Multi-Action Classification Using CNN and MobileNet
+## Distracted Driver Multi-Action Classification Using CNN and MobileNet
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/DistractedDriverClassification)
 
 This project is centered on the development of a convolutional neural network (CNN) model to classify images of drivers into ten distinct categories based on their behaviors, such as texting, talking on the phone, driving safely, and more. Utilizing a dataset of driver images, the goal is to accurately identify and classify various driving behaviors to enhance road safety measures.
@@ -148,6 +109,51 @@ Ablation studies were conducted using stratified sampling to reduce the dataset 
 
 ### Conclusion:
 The CNN+GRU model with transfer learning is highly accurate in recognizing gestures for controlling smart TVs. Future work could explore further fine-tuning and testing with larger, more diverse datasets to ensure robustness across different user inputs and environments.
+
+## BoomBikes: Leveraging Predictive Analytics to Revitalize Post-Pandemic Bike-Sharing Demand
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/BoomBikeSharing)
+
+This project employs multiple linear regression analysis to forecast post-pandemic demand for BoomBikes, a bike-sharing service impacted by COVID-19. Analyzing a dataset reflecting American market trends, we identified key demand influencers, including weather conditions, seasonality, and temporal shifts. This insight helps BoomBikes align their strategies with environmental cues and market dynamics to boost customer engagement and revenue.
+
+**Strategic Insights:**
+- **Weather and Seasonality:** High demand correlates with warmer temperatures and clear skies. Seasonal changes significantly affect bike rentals, highlighting the need for targeted bike availability and marketing in warmer months.
+- **Demand Growth:** An upward trend in bike rentals suggests increasing popularity. It emphasizes the potential for strategic expansion and enhanced promotional efforts.
+
+**Model Findings:**
+- Developed two models; the latter, incorporating binned variables for temperature and weather conditions, showed superior accuracy. This model's success underscores the importance of nuanced factors like weather and season in demand prediction.
+
+**Recommendations:**
+-ocus resources on peak demand periods, identified as warmer seasons with clear weather.
+-Leverage the growing trend in bike-sharing to expand market presence and customer base.
+
+**Technologies Used:**
+
+Python and libraries such as pandas, numpy, matplotlib, and seaborn facilitated the data analysis, supported by the Anaconda platform.
+
+## Lending Club Loan Default Prediction
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/AnirbanG-git/LendingClubCaseStudy)
+
+This project applies Exploratory Data Analysis (EDA) to predict loan defaults for the Lending Club, aiding in refining loan approval processes and minimizing credit losses. Through detailed analysis of a dataset containing loan applicant information, we identified key predictors of loan default, enabling more informed lending decisions.
+
+**Key Insights:**
+
+- **Predictive Variables:** Loan term, grade, interest rate, and annual income emerged as significant predictors of default. High-interest rates and loan amounts, particularly in the 'Medium-High' and 'Very High' categories, indicated increased default risk.
+- **Binning Impact:** Categorizing continuous variables (e.g., loan amount, interest rate) improved predictive accuracy. Specifically, loans with terms of 60 months, higher loan amounts, and interest rates above 12% showed a higher likelihood of default.
+- **Geographic Trends:** Loan defaults varied by geography, with states like Florida and California showing higher default rates, suggesting the importance of location in risk assessment.
+
+**Recommendations:**
+
+- **Risk-Based Pricing:** Adjust interest rates for higher-risk loan categories to mitigate potential losses.
+- **Loan Term Promotion:** Encourage shorter loan terms (36 months) due to their lower default rates.
+- **Enhanced Scrutiny:** Apply more rigorous checks for loans with high interest rates (>12%) and monitor high installment loans closely.
+- **Income and Employment Verification:** Strengthen verification processes for these factors, especially for borrowers in lower income brackets.
+- **Geographic Strategy**: Tailor risk management strategies to regions with historically higher default rates.
+
+**Technologies:**
+
+Utilized Python along with libraries like pandas, numpy, matplotlib, and seaborn for data analysis and visualization.
+
+
 
 
 
